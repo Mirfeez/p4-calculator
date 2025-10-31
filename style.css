@@ -4,8 +4,26 @@ body {
   margin: 0;
 }
 
+header {
+  margin: 1rem;
+}
+
+.logo {
+  color: white;
+  text-decoration-line: none;
+  font-size: 2rem;
+  display: inline-block;
+  transform-origin: center;
+  transition: color 530ms, transform 530ms;
+  will-change: transform;
+}
+
+.logo:hover {
+  color: rgb(255, 0, 102);
+  transform: scale(1.1);
+}
+
 body {
-  display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
@@ -21,7 +39,8 @@ body {
   justify-items: center;
   align-content: center;
   border-radius: 15px;
-  margin: 0 auto;
+  margin: 5rem;
+  justify-self: center;
 }
 
 .text {
