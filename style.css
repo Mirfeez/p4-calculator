@@ -1,0 +1,169 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: rgb(42, 59, 72);
+  color: white;
+}
+
+.calculator {
+  background-color: black;
+  width: 450px;
+  height: 520px;
+  display: block;
+  justify-items: center;
+  align-content: center;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+
+.text {
+  float: right;
+  display: flex;
+  align-self: center;
+  margin-top: -2rem;
+  margin-bottom: 4px;
+  margin-right: 1.5rem;
+}
+
+.text h1,
+.d p {
+  margin: 0;
+  margin-right: 1.5rem;
+  align-self: center;
+}
+
+.d p {
+  font-size: 9.3px;
+}
+
+.mj {
+  font-size: smaller;
+  margin: 0;
+  align-self: center;
+  margin-right: 0.5rem;
+}
+
+#display {
+  width: 350px;
+  height: 85px;
+  background-color: rgb(138, 142, 145);
+  color: black;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  font-size: 30px;
+}
+
+.solar-panel {
+  background-color: rgb(58, 40, 40);
+  width: 130px;
+  height: 40px;
+  align-content: center;
+  position: relative;
+  border-radius: 5px;
+  margin-top: -1rem;
+}
+
+label {
+  margin-left: 3rem;
+  margin-top: -2rem;
+  font-size: 1.5rem;
+  float: left;
+}
+
+#nums {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 2.4rem;
+}
+
+.keypads {
+  margin-top: 10px;
+  width: 365px;
+  height: 250px;
+}
+
+.first-row {
+  display: flex;
+  height: 35px;
+  justify-content: right;
+}
+
+.first-row button {
+  height: 35px;
+  border-radius: 10px;
+}
+
+.first-row .small {
+  font-size: 0.5em;
+}
+
+.second-row button {
+  height: 35px;
+}
+
+.rows {
+  display: flex;
+}
+
+button {
+  border: 5px solid rgb(1, 0, 0);
+  width: 61px;
+  height: 50px;
+  border-radius: 9px;
+  background-color: rgb(88, 90, 91);
+  color: white;
+}
+
+#disp {
+  background-color: rgb(213, 210, 210);
+  color: rgb(88, 90, 91);
+}
+
+.clear {
+  background-color: rgb(255, 0, 102);
+}
+
+#plus {
+  height: 100px;
+}
+
+.fifthside {
+  display: grid;
+  width: 50%;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.sixthside {
+  display: grid;
+  width: 30%;
+  grid-template-columns: 1fr 1fr;
+}
+
+.fiveandsix {
+  display: flex;
+}
+
+.up {
+  transform: rotate(180deg);
+}
+
+/* screen mode */
+
+#display {
+  font-size: 3rem;
+  text-align: right;
+}
+
+button:hover {
+  filter: brightness(75%);
+}

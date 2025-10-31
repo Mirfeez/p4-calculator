@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Project 2</title>
+   <script src="script.js" defer></script>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <div class="calculator">
+
+      <div class="solar-panel"></div>
+      <div class="text">
+         <p class="mj">MJ-12D</p>
+         <div class="d">
+            <h1>12</h1>
+            <p>DIGITS</p>
+         </div>
+      </div>
+
+      <label for="display">CASIO</label>
+      <input type="text" id="display" disabled>
+
+      <div class="keypads">
+         <div class="first-row rows">
+            <button class="btn small" data-value="auto-review">Auto review</button>
+            <button class="btn small" data-value="correct">correct</button>
+            <button class="btn up" data-value="up">v</button>
+            <button class="btn down" data-value="down">v</button>
+         </div>
+
+         <div class="second-row rows">
+            <button class="btn" id="disp" data-value="disp">DISP</button>
+            <button class="btn" data-value="delete">Delete</button>
+            <button class="btn" data-value="+/-">+/-</button>
+            <button class="btn" data-value="root">root</button>
+            <button class="btn" data-value="mu">MU</button>
+            <button class="btn" data-value="gt">GT</button>
+         </div>
+
+         <div class="third-row rows">
+            <button class="btn" data-value="7">7</button>
+            <button class="btn" data-value="8">8</button>
+            <button class="btn" data-value="9">9</button>
+            <button class="btn" data-value="%" data-value="%">%</button>
+            <button class="clear btn" onclick="clear()" data-value="c">C</button>
+            <button class="clear btn" onclick="clear()" data-value="ac">AC</button>
+         </div>
+
+         <div class="fourth-row rows">
+            <button class="btn" data-value="4">4</button>
+            <button class="btn" data-value="5">5</button>
+            <button class="btn" data-value="6">6</button>
+            <button class="btn" data-value="*">x</button>
+            <button class="btn" data-value="/">/</button>
+            <button class="btn" data-value="mrc">MRC</button>
+         </div>
+
+         <div class="fiveandsix">
+            <div class="fifthside">
+               <button class="btn" id="one" data-value="1">1</button>
+               <button class="btn" data-value="2">2</button>
+               <button class="btn" data-value="3">3</button>
+               <button class="btn" data-value="0">0</button>
+               <button class="btn" data-value="00">00</button>
+               <button class="btn" data-value=".">.</button>
+            </div>
+
+            <button class="btn" id="plus" data-value="+">+</button>
+
+            <div class="sixthside">
+               <button class="btn" data-value="-">-</button>
+               <button class="btn" data-value="m-">M-</button>
+               <button class="btn" data-value="=">=</button>
+               <button class="btn" data-value="m+">M+</button>
+            </div>
+
+         </div>
+      </div>
+   </input>
+</body>
+
+</html>
