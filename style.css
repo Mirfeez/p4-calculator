@@ -186,3 +186,75 @@ button {
 button:hover {
   filter: brightness(75%);
 }
+
+
+/* ============================================= */
+/* RESPONSIVE SCALING (Keeps layout identical)   */
+/* ============================================= */
+
+/* Tablet screens */
+@media (max-width: 900px) {
+  .calculator {
+    transform: scale(0.9);
+    transform-origin: top center;
+    margin-top: 2rem;
+  }
+}
+
+/* Regular Mobile */
+@media (max-width: 600px) {
+  .calculator {
+    transform: scale(0.75);
+    transform-origin: top center;
+    margin-top: 1.5rem;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 450px) {
+  .calculator {
+    transform: scale(0.65);
+    transform-origin: top center;
+    margin-top: 1rem;
+  }
+}
+
+/* Extra Small Devices */
+@media (max-width: 360px) {
+  .calculator {
+    transform: scale(0.55);
+    transform-origin: top center;
+    margin-top: 0.5rem;
+  }
+}
+
+
+/* ===================== Responsive Logo ===================== */
+
+/* Tablet */
+@media (max-width: 900px) {
+  .logo {
+    font-size: 1.7rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .logo {
+    font-size: 1.4rem;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 450px) {
+  .logo {
+    font-size: 1.2rem;
+  }
+}
+
+/* Extra Small */
+@media (max-width: 360px) {
+  .logo {
+    font-size: 1rem;
+  }
+}
